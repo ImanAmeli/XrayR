@@ -320,7 +320,7 @@ func (c *APIClient) ParseTrojanNodeResponse(nodeInfoResponse *simplejson.Json) (
 		NodeType:          c.NodeType,
 		NodeID:            c.NodeID,
 		Port:              port,
-		TransportProtocol: "tcp",
+		TransportProtocol: "ws",
 		EnableTLS:         true,
 		TLSType:           TLSType,
 		Host:              host,
